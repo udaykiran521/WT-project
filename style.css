@@ -1,0 +1,101 @@
+@font-face {
+    font-family: keepcalm;
+    src: url(fonts/KeepCalm-Medium.ttf);
+}
+
+.main-content{
+	margin-top:30px;
+	font-family:keepcalm;
+	text-align:center;
+	font-size:50px;
+	color: #4286f4;
+	padding-bottom:35px;
+	padding-left:20px;
+	border-bottom:5px solid #ccc;
+}
+
+.main-content>img{
+	float:left;
+}
+.clubs{
+	margin-top:20px;
+}
+.club_content{
+	//border: 1px solid #ccc;
+	text-decoration:none;
+	float:left;
+	width:400px;
+	height:400px;
+	margin-top:20px;
+	margin-left:175px;
+}
+
+.content_background{
+	background-size:cover;
+	height:90%;
+	width:90%;
+}
+ 
+.club_content>img{
+	margin:30px 0px 0px 10px;
+	//border: 1px solid #ccc;
+}
+
+.club_name{
+	margin-top:10px;
+	text-align:center;
+	width:293px;
+	font-family:keepcalm;
+	font-size:20px;
+}
+
+.club_name:hover{
+	color:red;
+}
+
+.club_info{
+	font-family:keepcalm;
+	font-size:18px;
+	padding-top:20px;
+	margin:0px 30px;
+	text-align:center;
+	padding-left:122px;
+	
+}
+
+.club_title{
+	font-family:keepcalm;
+	font-size:25px;
+	padding-top:40px;
+	padding-left:122px;
+}
+
+.form_content{
+	
+}
+
+.log_btn{
+	margin-top:30px;
+	float:right;
+	font-size:20px;
+	border: 1px solid #05A8AA;
+	border-radius:10px;
+	color:#05A8AA;
+	font-weight:bold;
+	padding:15px 30px;
+	text-decoration:none;	
+}
+
+.reg_btn,.log_btn{
+	border: 1px solid green;
+	border-radius:100px;
+	color:green;
+	font-weight:bold;
+	padding:15px 60px;
+	text-decoration:none;
+}
+
+.reg_btn:hover,.log_btn:hover{
+	background:green;
+	color:white;
+}
